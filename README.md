@@ -28,14 +28,19 @@ This project combines automation, human-machine interaction, and IoT-based alert
 
 ---
 
-## System Diagrams
+## Diagrams
 
-### Block Diagram
-![Block Diagram](images/block_diagram.png)  
+<img width="1280" height="960" alt="WhatsApp Image 2026-04-23 at 3 39 42 PM" src="https://github.com/user-attachments/assets/f1803ea1-ab9a-4a9b-8cc2-c609eba3a52d" />
+
+<img width="1280" height="960" alt="WhatsApp Image 2026-04-23 at 3 39 34 PM" src="https://github.com/user-attachments/assets/a38e7632-8c94-4567-8bd2-e4c3dcc79d92" />
+
+<img width="1280" height="960" alt="WhatsApp Image 2026-04-23 at 3 39 30 PM" src="https://github.com/user-attachments/assets/9b89b569-0312-4d02-80e4-5ba77f7a7927" />
+
+<img width="960" height="1280" alt="WhatsApp Image 2026-04-23 at 3 39 16 PM" src="https://github.com/user-attachments/assets/68735ca7-5eec-4ab7-a474-b22864922dfe" />
+
+ 
 *RTC module tracks time. ESP32 (Arduino Uno) controls LEDs to indicate compartments. Ultrasonic sensor detects user, triggering servo to open the correct compartment. GSM module sends reminders.*
-
-### Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)  
+ 
 *RTC module communicates via I2C. LEDs connected through resistors indicate active compartment. Ultrasonic sensor connects to digital pins. Servo motors open lids when user approaches. GSM module connected via UART.*
 
 ---
@@ -64,7 +69,6 @@ The Smart Medicine Dispenser using Arduino Uno successfully automates medication
 
 ---
 
-## Images
-*(Replace the placeholders with your actual images)*  
-![Medicine Dispenser Front](images/medicine_dispenser_front.png)  
-![Medicine Dispenser Top](images/medicine_dispenser_top.png)
+## Working Video
+
+
